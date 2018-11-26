@@ -11,7 +11,7 @@
                             http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!--自动扫描Controller-->
-    <context:component-scan base-package="cn.bdqn.controller"/>
+    <context:component-scan base-package="cn.appsys.controller"/>
     <mvc:annotation-driven/>
 
     <!--配置视图解析器-->
