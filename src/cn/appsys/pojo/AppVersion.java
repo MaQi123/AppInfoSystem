@@ -1,5 +1,7 @@
-package com.sample;
+package cn.appsys.pojo;
 
+
+import java.util.Date;
 
 public class AppVersion {
 
@@ -11,9 +13,9 @@ public class AppVersion {
   private String downloadLink;
   private double versionSize;
   private long createdBy;
-  private java.sql.Timestamp creationDate;
+  private Date creationDate;
   private long modifyBy;
-  private java.sql.Timestamp modifyDate;
+  private Date modifyDate;
   private String apkLocPath;
   private String apkFileName;
 
@@ -90,11 +92,11 @@ public class AppVersion {
   }
 
 
-  public java.sql.Timestamp getCreationDate() {
+  public Date getCreationDate() {
     return creationDate;
   }
 
-  public void setCreationDate(java.sql.Timestamp creationDate) {
+  public void setCreationDate(Date creationDate) {
     this.creationDate = creationDate;
   }
 
@@ -108,11 +110,11 @@ public class AppVersion {
   }
 
 
-  public java.sql.Timestamp getModifyDate() {
+  public Date getModifyDate() {
     return modifyDate;
   }
 
-  public void setModifyDate(java.sql.Timestamp modifyDate) {
+  public void setModifyDate(Date modifyDate) {
     this.modifyDate = modifyDate;
   }
 

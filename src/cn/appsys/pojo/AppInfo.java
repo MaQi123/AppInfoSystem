@@ -1,5 +1,7 @@
-package com.sample;
+package cn.appsys.pojo;
 
+
+import java.util.Date;
 
 public class AppInfo {
 
@@ -9,19 +11,19 @@ public class AppInfo {
   private String supportRom;
   private String interfaceLanguage;
   private double softwareSize;
-  private java.sql.Date updateDate;
+  private Date updateDate;
   private long devId;
   private String appInfo;
   private long status;
-  private java.sql.Timestamp onSaleDate;
-  private java.sql.Timestamp offSaleDate;
+  private Date onSaleDate;
+  private Date offSaleDate;
   private long flatformId;
   private long categoryLevel3;
   private long downloads;
   private long createdBy;
-  private java.sql.Timestamp creationDate;
+  private Date creationDate;
   private long modifyBy;
-  private java.sql.Timestamp modifyDate;
+  private Date modifyDate;
   private long categoryLevel1;
   private long categoryLevel2;
   private String logoPicPath;
@@ -83,11 +85,11 @@ public class AppInfo {
   }
 
 
-  public java.sql.Date getUpdateDate() {
+  public Date getUpdateDate() {
     return updateDate;
   }
 
-  public void setUpdateDate(java.sql.Date updateDate) {
+  public void setUpdateDate(Date updateDate) {
     this.updateDate = updateDate;
   }
 
@@ -119,20 +121,20 @@ public class AppInfo {
   }
 
 
-  public java.sql.Timestamp getOnSaleDate() {
+  public Date getOnSaleDate() {
     return onSaleDate;
   }
 
-  public void setOnSaleDate(java.sql.Timestamp onSaleDate) {
+  public void setOnSaleDate(Date onSaleDate) {
     this.onSaleDate = onSaleDate;
   }
 
 
-  public java.sql.Timestamp getOffSaleDate() {
+  public Date getOffSaleDate() {
     return offSaleDate;
   }
 
-  public void setOffSaleDate(java.sql.Timestamp offSaleDate) {
+  public void setOffSaleDate(Date offSaleDate) {
     this.offSaleDate = offSaleDate;
   }
 
@@ -173,11 +175,11 @@ public class AppInfo {
   }
 
 
-  public java.sql.Timestamp getCreationDate() {
+  public Date getCreationDate() {
     return creationDate;
   }
 
-  public void setCreationDate(java.sql.Timestamp creationDate) {
+  public void setCreationDate(Date creationDate) {
     this.creationDate = creationDate;
   }
 
@@ -191,11 +193,11 @@ public class AppInfo {
   }
 
 
-  public java.sql.Timestamp getModifyDate() {
+  public Date getModifyDate() {
     return modifyDate;
   }
 
-  public void setModifyDate(java.sql.Timestamp modifyDate) {
+  public void setModifyDate(Date modifyDate) {
     this.modifyDate = modifyDate;
   }
 

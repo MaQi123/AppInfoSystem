@@ -1,5 +1,7 @@
-package com.sample;
+package cn.appsys.pojo;
 
+
+import java.util.Date;
 
 public class AdPromotion {
 
@@ -8,12 +10,12 @@ public class AdPromotion {
   private String adPicPath;
   private long adPv;
   private long carouselPosition;
-  private java.sql.Timestamp startTime;
-  private java.sql.Timestamp endTime;
+  private Date startTime;
+  private Date endTime;
   private long createdBy;
-  private java.sql.Timestamp creationDate;
+  private Date creationDate;
   private long modifyBy;
-  private java.sql.Timestamp modifyDate;
+  private Date modifyDate;
 
 
   public long getId() {
@@ -61,20 +63,20 @@ public class AdPromotion {
   }
 
 
-  public java.sql.Timestamp getStartTime() {
+  public Date getStartTime() {
     return startTime;
   }
 
-  public void setStartTime(java.sql.Timestamp startTime) {
+  public void setStartTime(Date startTime) {
     this.startTime = startTime;
   }
 
 
-  public java.sql.Timestamp getEndTime() {
+  public Date getEndTime() {
     return endTime;
   }
 
-  public void setEndTime(java.sql.Timestamp endTime) {
+  public void setEndTime(Date endTime) {
     this.endTime = endTime;
   }
 
@@ -88,11 +90,11 @@ public class AdPromotion {
   }
 
 
-  public java.sql.Timestamp getCreationDate() {
+  public Date getCreationDate() {
     return creationDate;
   }
 
-  public void setCreationDate(java.sql.Timestamp creationDate) {
+  public void setCreationDate(Date creationDate) {
     this.creationDate = creationDate;
   }
 
@@ -106,11 +108,11 @@ public class AdPromotion {
   }
 
 
-  public java.sql.Timestamp getModifyDate() {
+  public Date getModifyDate() {
     return modifyDate;
   }
 
-  public void setModifyDate(java.sql.Timestamp modifyDate) {
+  public void setModifyDate(Date modifyDate) {
     this.modifyDate = modifyDate;
   }
 

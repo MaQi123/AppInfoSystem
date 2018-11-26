@@ -1,5 +1,8 @@
-package com.sample;
+package cn.appsys.pojo;
 
+
+
+import java.util.Date;
 
 public class DevUser {
 
@@ -10,9 +13,9 @@ public class DevUser {
   private String devEmail;
   private String devInfo;
   private long createdBy;
-  private java.sql.Timestamp creationDate;
+  private Date creationDate;
   private long modifyBy;
-  private java.sql.Timestamp modifyDate;
+  private Date modifyDate;
 
 
   public long getId() {
@@ -78,7 +81,7 @@ public class DevUser {
   }
 
 
-  public java.sql.Timestamp getCreationDate() {
+  public Date getCreationDate() {
     return creationDate;
   }
 
@@ -96,11 +99,11 @@ public class DevUser {
   }
 
 
-  public java.sql.Timestamp getModifyDate() {
+  public Date getModifyDate() {
     return modifyDate;
   }
 
-  public void setModifyDate(java.sql.Timestamp modifyDate) {
+  public void setModifyDate(Date modifyDate) {
     this.modifyDate = modifyDate;
   }
 

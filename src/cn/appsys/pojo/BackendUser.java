@@ -1,5 +1,7 @@
-package com.sample;
+package cn.appsys.pojo;
 
+
+import java.util.Date;
 
 public class BackendUser {
 
@@ -8,9 +10,9 @@ public class BackendUser {
   private String userName;
   private long userType;
   private long createdBy;
-  private java.sql.Timestamp creationDate;
+  private Date creationDate;
   private long modifyBy;
-  private java.sql.Timestamp modifyDate;
+  private Date modifyDate;
   private String userPassword;
 
 
@@ -59,11 +61,11 @@ public class BackendUser {
   }
 
 
-  public java.sql.Timestamp getCreationDate() {
+  public Date getCreationDate() {
     return creationDate;
   }
 
-  public void setCreationDate(java.sql.Timestamp creationDate) {
+  public void setCreationDate(Date creationDate) {
     this.creationDate = creationDate;
   }
 
@@ -77,11 +79,11 @@ public class BackendUser {
   }
 
 
-  public java.sql.Timestamp getModifyDate() {
+  public Date getModifyDate() {
     return modifyDate;
   }
 
-  public void setModifyDate(java.sql.Timestamp modifyDate) {
+  public void setModifyDate(Date modifyDate) {
     this.modifyDate = modifyDate;
   }
 

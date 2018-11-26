@@ -1,16 +1,18 @@
-package com.sample;
+ package cn.appsys.pojo;
 
 
-public class AppCategory {
+ import java.util.Date;
+
+ public class AppCategory {
 
   private long id;
   private String categoryCode;
   private String categoryName;
   private long parentId;
   private long createdBy;
-  private java.sql.Timestamp creationTime;
+  private Date creationTime;
   private long modifyBy;
-  private java.sql.Timestamp modifyDate;
+  private Date modifyDate;
 
 
   public long getId() {
@@ -58,11 +60,11 @@ public class AppCategory {
   }
 
 
-  public java.sql.Timestamp getCreationTime() {
+  public Date getCreationTime() {
     return creationTime;
   }
 
-  public void setCreationTime(java.sql.Timestamp creationTime) {
+  public void setCreationTime(Date creationTime) {
     this.creationTime = creationTime;
   }
 
@@ -76,11 +78,11 @@ public class AppCategory {
   }
 
 
-  public java.sql.Timestamp getModifyDate() {
+  public Date getModifyDate() {
     return modifyDate;
   }
 
-  public void setModifyDate(java.sql.Timestamp modifyDate) {
+  public void setModifyDate(Date modifyDate) {
     this.modifyDate = modifyDate;
   }
 
