@@ -38,50 +38,10 @@ http://www.springframework.org/schema/tx">
         </property>
     </bean>
 
-    <!--配置SqlsessionTempate:用来获取Sqlsession对象-->
-    <!-- <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
-        <constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory"/>
-    </bean>-->
-
-    <!--配置dao组件 ，并且注入到sqlSessionTemplate实例中-->
-    <!-- <bean id="UserMapper" class="cn.smbms.dao.user.UserMapperImpl">
-        <property name="sqlSession" ref="sqlSessionTemplate"/>
-    </bean>-->
-
-    <!--配置User service组件-->
-    <!--<bean id="userService" class="cn.smbms.service.user.impl.UserServiceImpl">
-        &lt;!&ndash;映入UserMappper组件&ndash;&gt;
-        <property name="userMapper" ref="UserMapper"/>
-    </bean>-->
-
-    <!--   <bean id="ProviderMapper" class="cn.smbms.dao.provider.ProviderMapperImpl">
-        <property name="sqlSession" ref="sqlSessionTemplate"/>
-    </bean>-->
-
-
-    <!--通过SqlsessionDao简化Mapper的显示注入-->
-    <!-- <bean id="providerMapper" class="cn.smbms.dao.provider.ProviderMapperImpl">
-        &lt;!&ndash;引入SqlSession对象&ndash;&gt;
-        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
-    </bean>-->
-
-
-    <!--注入映射器：MapperFactoryBean-->
-    <!--   <bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
-        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
-        <property name="mapperInterface" value="cn.smbms.dao.user.UserMapper"/>
-     </bean>
-
-    <bean id="ProviderMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
-        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
-        <property name="mapperInterface" value="cn.smbms.dao.user.UserMapper"/>
-    </bean>-->
-
-
     <!--使用MapperScannerConfigurer注入映射器-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <!--<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>-->
-        <property name="basePackage" value="cn.bdqn.dao"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <property name="basePackage" value="cn.appsys.dao"/>
     </bean>
 
     <!--自动扫描-->
