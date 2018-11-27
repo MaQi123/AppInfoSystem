@@ -32,7 +32,7 @@ http://www.springframework.org/schema/tx">
         <!--配置Mapper映射文件-->
         <property name="mapperLocations">
             <list>
-                <value>classpath:cn/appsys/dao/**/*.xml</value>
+               <!-- <value>classpath:cn/appsys/dao/**/*.xml</value>-->
                 <!--  <value>classpath:cn/smbms/dao/bill/BillMapper.xml</value>-->
             </list>
         </property>
