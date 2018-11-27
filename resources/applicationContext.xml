@@ -46,4 +46,5 @@ http://www.springframework.org/schema/tx">
 
     <!--自动扫描-->
     <context:component-scan base-package="cn.appsys.service"/>
+    <context:component-scan base-package="cn.appsys.dao"/>
 </beans>

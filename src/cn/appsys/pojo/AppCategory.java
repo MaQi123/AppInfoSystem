@@ -5,21 +5,21 @@
 
  public class AppCategory {
 
-  private long id;
+  private Integer id;
   private String categoryCode;
   private String categoryName;
-  private long parentId;
-  private long createdBy;
+  private Integer parentId;
+  private Integer createdBy;
   private Date creationTime;
-  private long modifyBy;
+  private Integer modifyBy;
   private Date modifyDate;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
@@ -42,20 +42,20 @@
   }
 
 
-  public long getParentId() {
+  public Integer getParentId() {
     return parentId;
   }
 
-  public void setParentId(long parentId) {
+  public void setParentId(Integer parentId) {
     this.parentId = parentId;
   }
 
 
-  public long getCreatedBy() {
+  public Integer getCreatedBy() {
     return createdBy;
   }
 
-  public void setCreatedBy(long createdBy) {
+  public void setCreatedBy(Integer createdBy) {
     this.createdBy = createdBy;
   }
 
@@ -69,11 +69,11 @@
   }
 
 
-  public long getModifyBy() {
+  public Integer getModifyBy() {
     return modifyBy;
   }
 
-  public void setModifyBy(long modifyBy) {
+  public void setModifyBy(Integer modifyBy) {
     this.modifyBy = modifyBy;
   }
 

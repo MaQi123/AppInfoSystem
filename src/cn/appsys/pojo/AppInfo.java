@@ -5,37 +5,37 @@ import java.util.Date;
 
 public class AppInfo {
 
-  private long id;
+  private Integer id;
   private String softwareName;
   private String apkName;
   private String supportRom;
   private String interfaceLanguage;
   private double softwareSize;
   private Date updateDate;
-  private long devId;
+  private Integer devId;
   private String appInfo;
-  private long status;
+  private Integer status;
   private Date onSaleDate;
   private Date offSaleDate;
-  private long flatformId;
-  private long categoryLevel3;
-  private long downloads;
-  private long createdBy;
+  private Integer flatformId;
+  private Integer categoryLevel3;
+  private Integer downloads;
+  private Integer createdBy;
   private Date creationDate;
-  private long modifyBy;
+  private Integer modifyBy;
   private Date modifyDate;
-  private long categoryLevel1;
-  private long categoryLevel2;
+  private Integer categoryLevel1;
+  private Integer categoryLevel2;
   private String logoPicPath;
   private String logoLocPath;
-  private long versionId;
+  private Integer versionId;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
@@ -94,11 +94,11 @@ public class AppInfo {
   }
 
 
-  public long getDevId() {
+  public Integer getDevId() {
     return devId;
   }
 
-  public void setDevId(long devId) {
+  public void setDevId(Integer devId) {
     this.devId = devId;
   }
 
@@ -112,11 +112,11 @@ public class AppInfo {
   }
 
 
-  public long getStatus() {
+  public Integer getStatus() {
     return status;
   }
 
-  public void setStatus(long status) {
+  public void setStatus(Integer status) {
     this.status = status;
   }
 
@@ -139,38 +139,38 @@ public class AppInfo {
   }
 
 
-  public long getFlatformId() {
+  public Integer getFlatformId() {
     return flatformId;
   }
 
-  public void setFlatformId(long flatformId) {
+  public void setFlatformId(Integer flatformId) {
     this.flatformId = flatformId;
   }
 
 
-  public long getCategoryLevel3() {
+  public Integer getCategoryLevel3() {
     return categoryLevel3;
   }
 
-  public void setCategoryLevel3(long categoryLevel3) {
+  public void setCategoryLevel3(Integer categoryLevel3) {
     this.categoryLevel3 = categoryLevel3;
   }
 
 
-  public long getDownloads() {
+  public Integer getDownloads() {
     return downloads;
   }
 
-  public void setDownloads(long downloads) {
+  public void setDownloads(Integer downloads) {
     this.downloads = downloads;
   }
 
 
-  public long getCreatedBy() {
+  public Integer getCreatedBy() {
     return createdBy;
   }
 
-  public void setCreatedBy(long createdBy) {
+  public void setCreatedBy(Integer createdBy) {
     this.createdBy = createdBy;
   }
 
@@ -184,11 +184,11 @@ public class AppInfo {
   }
 
 
-  public long getModifyBy() {
+  public Integer getModifyBy() {
     return modifyBy;
   }
 
-  public void setModifyBy(long modifyBy) {
+  public void setModifyBy(Integer modifyBy) {
     this.modifyBy = modifyBy;
   }
 
@@ -202,20 +202,20 @@ public class AppInfo {
   }
 
 
-  public long getCategoryLevel1() {
+  public Integer getCategoryLevel1() {
     return categoryLevel1;
   }
 
-  public void setCategoryLevel1(long categoryLevel1) {
+  public void setCategoryLevel1(Integer categoryLevel1) {
     this.categoryLevel1 = categoryLevel1;
   }
 
 
-  public long getCategoryLevel2() {
+  public Integer getCategoryLevel2() {
     return categoryLevel2;
   }
 
-  public void setCategoryLevel2(long categoryLevel2) {
+  public void setCategoryLevel2(Integer categoryLevel2) {
     this.categoryLevel2 = categoryLevel2;
   }
 
@@ -238,11 +238,11 @@ public class AppInfo {
   }
 
 
-  public long getVersionId() {
+  public Integer getVersionId() {
     return versionId;
   }
 
-  public void setVersionId(long versionId) {
+  public void setVersionId(Integer versionId) {
     this.versionId = versionId;
   }
 

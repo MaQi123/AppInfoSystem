@@ -5,22 +5,22 @@ import java.util.Date;
 
 public class DataDictionary {
 
-  private long id;
+  private Integer id;
   private String typeCode;
   private String typeName;
-  private long valueId;
+  private Integer valueId;
   private String valueName;
-  private long createdBy;
+  private Integer createdBy;
   private Date creationDate;
-  private long modifyBy;
+  private Integer modifyBy;
   private Date modifyDate;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
@@ -43,11 +43,11 @@ public class DataDictionary {
   }
 
 
-  public long getValueId() {
+  public Integer getValueId() {
     return valueId;
   }
 
-  public void setValueId(long valueId) {
+  public void setValueId(Integer valueId) {
     this.valueId = valueId;
   }
 
@@ -61,11 +61,11 @@ public class DataDictionary {
   }
 
 
-  public long getCreatedBy() {
+  public Integer getCreatedBy() {
     return createdBy;
   }
 
-  public void setCreatedBy(long createdBy) {
+  public void setCreatedBy(Integer createdBy) {
     this.createdBy = createdBy;
   }
 
@@ -79,11 +79,11 @@ public class DataDictionary {
   }
 
 
-  public long getModifyBy() {
+  public Integer getModifyBy() {
     return modifyBy;
   }
 
-  public void setModifyBy(long modifyBy) {
+  public void setModifyBy(Integer modifyBy) {
     this.modifyBy = modifyBy;
   }
 

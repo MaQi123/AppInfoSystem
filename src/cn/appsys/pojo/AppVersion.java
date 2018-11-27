@@ -5,35 +5,35 @@ import java.util.Date;
 
 public class AppVersion {
 
-  private long id;
-  private long appId;
+  private Integer id;
+  private Integer appId;
   private String versionNo;
   private String versionInfo;
-  private long publishStatus;
+  private Integer publishStatus;
   private String downloadLink;
   private double versionSize;
-  private long createdBy;
+  private Integer createdBy;
   private Date creationDate;
-  private long modifyBy;
+  private Integer modifyBy;
   private Date modifyDate;
   private String apkLocPath;
   private String apkFileName;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
 
-  public long getAppId() {
+  public Integer getAppId() {
     return appId;
   }
 
-  public void setAppId(long appId) {
+  public void setAppId(Integer appId) {
     this.appId = appId;
   }
 
@@ -56,11 +56,11 @@ public class AppVersion {
   }
 
 
-  public long getPublishStatus() {
+  public Integer getPublishStatus() {
     return publishStatus;
   }
 
-  public void setPublishStatus(long publishStatus) {
+  public void setPublishStatus(Integer publishStatus) {
     this.publishStatus = publishStatus;
   }
 
@@ -83,11 +83,11 @@ public class AppVersion {
   }
 
 
-  public long getCreatedBy() {
+  public Integer getCreatedBy() {
     return createdBy;
   }
 
-  public void setCreatedBy(long createdBy) {
+  public void setCreatedBy(Integer createdBy) {
     this.createdBy = createdBy;
   }
 
@@ -101,11 +101,11 @@ public class AppVersion {
   }
 
 
-  public long getModifyBy() {
+  public Integer getModifyBy() {
     return modifyBy;
   }
 
-  public void setModifyBy(long modifyBy) {
+  public void setModifyBy(Integer modifyBy) {
     this.modifyBy = modifyBy;
   }
 

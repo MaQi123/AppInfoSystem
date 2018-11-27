@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class DevUser {
 
-  private long id;
+  private Integer id;
   private String devCode;
   private String devName;
   private String devPassword;
@@ -18,11 +18,11 @@ public class DevUser {
   private Date modifyDate;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 

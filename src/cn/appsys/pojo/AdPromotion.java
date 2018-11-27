@@ -5,33 +5,33 @@ import java.util.Date;
 
 public class AdPromotion {
 
-  private long id;
-  private long appId;
+  private Integer id;
+  private Integer appId;
   private String adPicPath;
-  private long adPv;
-  private long carouselPosition;
+  private Integer adPv;
+  private Integer carouselPosition;
   private Date startTime;
   private Date endTime;
-  private long createdBy;
+  private Integer createdBy;
   private Date creationDate;
-  private long modifyBy;
+  private Integer modifyBy;
   private Date modifyDate;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
 
-  public long getAppId() {
+  public Integer getAppId() {
     return appId;
   }
 
-  public void setAppId(long appId) {
+  public void setAppId(Integer appId) {
     this.appId = appId;
   }
 
@@ -45,20 +45,20 @@ public class AdPromotion {
   }
 
 
-  public long getAdPv() {
+  public Integer getAdPv() {
     return adPv;
   }
 
-  public void setAdPv(long adPv) {
+  public void setAdPv(Integer adPv) {
     this.adPv = adPv;
   }
 
 
-  public long getCarouselPosition() {
+  public Integer getCarouselPosition() {
     return carouselPosition;
   }
 
-  public void setCarouselPosition(long carouselPosition) {
+  public void setCarouselPosition(Integer carouselPosition) {
     this.carouselPosition = carouselPosition;
   }
 
@@ -81,11 +81,11 @@ public class AdPromotion {
   }
 
 
-  public long getCreatedBy() {
+  public Integer getCreatedBy() {
     return createdBy;
   }
 
-  public void setCreatedBy(long createdBy) {
+  public void setCreatedBy(Integer createdBy) {
     this.createdBy = createdBy;
   }
 
@@ -99,11 +99,11 @@ public class AdPromotion {
   }
 
 
-  public long getModifyBy() {
+  public Integer getModifyBy() {
     return modifyBy;
   }
 
-  public void setModifyBy(long modifyBy) {
+  public void setModifyBy(Integer modifyBy) {
     this.modifyBy = modifyBy;
   }
 

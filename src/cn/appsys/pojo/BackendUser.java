@@ -5,22 +5,22 @@ import java.util.Date;
 
 public class BackendUser {
 
-  private long id;
+  private Integer id;
   private String userCode;
   private String userName;
-  private long userType;
-  private long createdBy;
+  private Integer userType;
+  private Integer createdBy;
   private Date creationDate;
-  private long modifyBy;
+  private Integer modifyBy;
   private Date modifyDate;
   private String userPassword;
 
 
-  public long getId() {
+  public Integer getId() {
     return id;
   }
 
-  public void setId(long id) {
+  public void setId(Integer id) {
     this.id = id;
   }
 
@@ -43,20 +43,20 @@ public class BackendUser {
   }
 
 
-  public long getUserType() {
+  public Integer getUserType() {
     return userType;
   }
 
-  public void setUserType(long userType) {
+  public void setUserType(Integer userType) {
     this.userType = userType;
   }
 
 
-  public long getCreatedBy() {
+  public Integer getCreatedBy() {
     return createdBy;
   }
 
-  public void setCreatedBy(long createdBy) {
+  public void setCreatedBy(Integer createdBy) {
     this.createdBy = createdBy;
   }
 
@@ -70,11 +70,11 @@ public class BackendUser {
   }
 
 
-  public long getModifyBy() {
+  public Integer getModifyBy() {
     return modifyBy;
   }
 
-  public void setModifyBy(long modifyBy) {
+  public void setModifyBy(Integer modifyBy) {
     this.modifyBy = modifyBy;
   }
 
