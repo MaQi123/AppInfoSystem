@@ -9,7 +9,7 @@
     </settings>
     <!--别名-->
     <typeAliases>
-    <package name="cn.bdqn.pojo" />
+    <package name="cn.appsys.pojo" />
 </typeAliases>
 
 
