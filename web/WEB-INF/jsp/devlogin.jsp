@@ -3,6 +3,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script  src="../../statics/js/jquery.min.js"></script>
+    <script>
+      $(function () {
+          $(".f").submit(function () {
+              if($(".form-control").val()==null||$(".form-control").val()=="") {
+                  alert("用户名不能为空")
+                  return false;
+              }
+          })
+      })
+
+    </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
@@ -32,10 +44,10 @@
       <div class="login_wrapper">
         <div class="animate form login_form">
           <section class="login_content">
-            <form action="/dev/dologin" method="post">
+            <form  class="f" action="/dev/dologin" method="post">
               <h1>APP开发者平台</h1>
               <div>
-                <input type="text" class="form-control" name="devCode" placeholder="请输入用户名" required="" />
+                <input type="text" class="form-control" name="devCode" placeholder="请输入用户名" />
               </div>
               <div>
                 <input type="password" class="form-control" name="devPassword" placeholder="请输入密码" required="" />

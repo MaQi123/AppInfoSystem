@@ -55,6 +55,7 @@ public class DevUserController {
     }
 
     /*注销*/
+    @RequestMapping("/logout")
     public String logout(HttpSession session){
         //清除session
         session.removeAttribute(Constants.DEV_USER_SESSION);
